@@ -27,5 +27,4 @@ _$*
 core
 # CVS default ignores end
 build
-dep-orgmgmt-ctrl.jar
 .staging
