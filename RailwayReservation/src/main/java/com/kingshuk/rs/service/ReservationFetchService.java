@@ -17,5 +17,10 @@ public class ReservationFetchService {
 		return location;
 		
 	}
+	
+	public ArrayList<Train> searchTrain(String startPoint,String endPoint,Date journeyDate){
+		
+		Train train1=new Train(1213,"Coromondal Express",);
+	}
 
 }
