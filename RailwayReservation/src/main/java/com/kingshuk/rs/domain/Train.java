@@ -1,36 +1,23 @@
 package com.kingshuk.rs.domain;
 
+import com.kingshuk.rs.utility.GlobalConstants;
+
 public class Train {
-	private enum Days{
-		SUNDAY,
-		MONDAY,
-		TUESDAY,
-		WEDNESDAY,
-		THURSDAY,
-		FRIDAY,
-		SATURDAY,
-		DAILY
-	}
-	private enum Classes{
-		AC1,
-		AC2,
-		AC3,
-		Sleepers
-	}
+	
 	private String trainNo;
 	private String trainName;
-	private Days[] daysOfOperation;
+	private GlobalConstants.Days[] daysOfOperation;
 	private String arrivalTime;
 	private String departureTime;
 	private String originLocation;
 	private String destinationLocation;
-	private Classes[] availableClasses;
+	private GlobalConstants.Classes[] availableClasses;
 	
 	public Train(){}
 	
-	public Train(String trainNo, String trainName, Days[] daysOfOperation,
+	public Train(String trainNo, String trainName, GlobalConstants.Days[] daysOfOperation,
 			String arrivalTime, String departureTime, String originLocation,
-			String destinationLocation, Classes[] availableClasses) {
+			String destinationLocation, GlobalConstants.Classes[] availableClasses) {
 		super();
 		this.trainNo = trainNo;
 		this.trainName = trainName;
@@ -53,10 +40,10 @@ public class Train {
 	public void setTrainName(String trainName) {
 		this.trainName = trainName;
 	}
-	public Days[] getDaysOfOperation() {
+	public GlobalConstants.Days[] getDaysOfOperation() {
 		return daysOfOperation;
 	}
-	public void setDaysOfOperation(Days[] daysOfOperation) {
+	public void setDaysOfOperation(GlobalConstants.Days[] daysOfOperation) {
 		this.daysOfOperation = daysOfOperation;
 	}
 	public String getArrivalTime() {
@@ -83,10 +70,10 @@ public class Train {
 	public void setDestinationLocation(String destinationLocation) {
 		this.destinationLocation = destinationLocation;
 	}
-	public Classes[] getAvailableClasses() {
+	public GlobalConstants.Classes[] getAvailableClasses() {
 		return availableClasses;
 	}
-	public void setAvailableClasses(Classes[] availableClasses) {
+	public void setAvailableClasses(GlobalConstants.Classes[] availableClasses) {
 		this.availableClasses = availableClasses;
 	}
 	
