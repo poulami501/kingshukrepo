@@ -8,7 +8,7 @@ public class Location {
 	
 	public Location(){}
 	
-	
+	// Test
 	
 	public Location(int id, String locationShortName, String locationCode,
 			String locationDesc) {
