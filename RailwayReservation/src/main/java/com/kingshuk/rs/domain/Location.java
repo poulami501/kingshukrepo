@@ -8,6 +8,8 @@ public class Location {
 	
 	public Location(){}
 	
+	
+	
 	public Location(int id, String locationShortName, String locationCode,
 			String locationDesc) {
 		super();
