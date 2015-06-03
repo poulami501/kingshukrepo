@@ -11,6 +11,8 @@ public class Location {
 	// Test
 	//GIT_History:First stage checkin in non-mavenized project 6/3/2015
 	
+	//GIT_History:Second stage checkin in non-mavenized project 6/3/2015
+	
 	public Location(int id, String locationShortName, String locationCode,
 			String locationDesc) {
 		super();
