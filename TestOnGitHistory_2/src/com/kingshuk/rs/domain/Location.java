@@ -12,6 +12,8 @@ public class Location {
 	
 	// First stage checkin in non-mavenized project 6/3/2015
 	
+	// Second stage checkin in non-mavenized project 6/3/2015
+	
 	public Location(int id, String locationShortName, String locationCode,
 			String locationDesc) {
 		super();
