@@ -1,0 +1,19 @@
+<html>
+<title>AngularJS Expressions</title>
+<head>
+<script src="../js/angular.min.js"></script>
+</head>
+<body>
+	<h1>Sample Application</h1>
+	<div ng-app=""
+		ng-init="quantity=1;cost=30;student={firstname:'kingshuk',lastname:'chakraborty',rollno:34};marks=[12,33,35,22,66]">
+		<p>Hello {{student.firstname+" "+studnet.lastname}}!</p>
+		<p>Expense on books: {{quantity*cost}}</p>
+		<p>Roll no: {{student.rollno}}</p>
+		<p>Marks(Math) :{{marks[3]}}</p>
+
+
+	</div>
+
+</body>
+</html>
