@@ -12,7 +12,7 @@ public class Location {
 	// First stage commit on non-mavenized project 6/3/2015
 	// Second stage commit on non-mavenized project 6/3/2015
 	// 3rd stage commit on non-mavenized project 6/3/2015
-
+	// 4th stage commit will fail
 	public Location(int id, String locationShortName, String locationCode,
 			String locationDesc) {
 		super();
