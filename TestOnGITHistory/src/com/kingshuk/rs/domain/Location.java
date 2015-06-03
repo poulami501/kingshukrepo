@@ -12,12 +12,7 @@ public class Location {
 	// First stage commit on non-mavenized project 6/3/2015
 	// Second stage commit on non-mavenized project 6/3/2015
 	// 3rd stage commit on non-mavenized project 6/3/2015
-<<<<<<< HEAD
 	// 4th stage commit will fail
-	// 5th stage commit will not fail
-=======
-	// 4th stage commit will fail
->>>>>>> branch 'king-branch-05-15-15' of https://github.com/kingshuk-chakraborty/kingshukrepo.git
 	public Location(int id, String locationShortName, String locationCode,
 			String locationDesc) {
 		super();
