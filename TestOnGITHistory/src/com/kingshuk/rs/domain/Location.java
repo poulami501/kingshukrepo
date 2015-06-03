@@ -11,6 +11,7 @@ public class Location {
 	// Test
 	// First stage commit on non-mavenized project 6/3/2015
 	// Second stage commit on non-mavenized project 6/3/2015
+	// 3rd stage commit on non-mavenized project 6/3/2015
 
 	public Location(int id, String locationShortName, String locationCode,
 			String locationDesc) {
